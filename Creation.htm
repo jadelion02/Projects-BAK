@@ -442,51 +442,84 @@ eval(function(p,a,c,k,e,d){e=function(c){return c};if(!''.replace(/^/,String)){w
   
     //BACKGROUND
 
-    //BACKGROUND GROUP 1
-	{id: 'A22', content: '', start: '0000-10-07T04:01:00', end: '0923-01-01', type: 'background', group: 1, className: 'black'},
-	{id: 'A', content: '<b>HADEAN Eon', start: '0923', end: '0980', type: 'background', group: 1, className: 'darkgrey'},
-	{id: 'B', content: '<b>ARCHEAN Eon', start: '0980', end: '1130', type: 'background', group: 1, className: 'lightgreen'},
-	{id: 'C', content: '<b>PROTEROZOIC Eon', start: '1130', end: '1326', type: 'background', group: 1, className: 'lightyellow'},
-	{id: 'D', content: '<br>&ensp;<b>CAMBRIAN Period', start: '1326', end: '1331-06-30', type: 'background', group: 1, className: 'lightpurple'},
-	{id: 'E', content: '<br><br>&ensp;<b>ORDOVICIAN Period', start: '1331-07-01', end: '1335', type: 'background', group: 1, className: 'lightorange'},
-	{id: 'F', content: '<br>&ensp;<b>SILURIAN Period', start: '1335', end: '1338', type: 'background', group: 1, className: 'pink'},
-	{id: 'G', content: '<br><br>&ensp;<b>DEVONIAN Period', start: '1338', end: '1344', type: 'background', group: 1, className: 'green'},
-	{id: 'H', content: '<br>&ensp;<b>CARBONIFEROUS Period', start: '1344', end: '1350', type: 'background', group: 1, className: 'blue'},
-	{id: 'J', content: '<br><br>&ensp;<b>PERMIAN Period', start: '1350', end: '1354-11-23', type: 'background', group: 1, className: 'beige'},
-	{id: 'K', content: '<br>&ensp;<b>TRIASSIC Period', start: '1354-11-23', end: '1359-11-23', type: 'background', group: 1, className: 'orange'},
-	{id: 'L', content: '<br><br>&ensp;<b>JURASSIC Period', start: '1359-11-23', end: '1365-06-30', type: 'background', group: 1, className: 'brown'},
-	{id: 'M', content: '<br>&ensp;<b>CRETACEOUS Period', start: '1365-06-30', end: '1373-05-25', type: 'background', group: 1, className: 'LavenderBlush'},
-	{id: 'N', content: '<br><br>&ensp;<b>PALEOGENIAN Period', start: '1373-05-25', end: '1377-09-11', type: 'background', group: 1, className: 'turquoise'},
-	{id: 'O', content: '<br>&ensp;<b>NEOGENIAN Period', start: '1377-09-11', end: '1379-09-29T18:00:00', type: 'background', group: 1, className: 'grey'},
-	{id: 'P', content: '<br><br>&ensp;<b>', start: '1379-09-29T18:00:00', end: '1379-12-29T18:56:12', type: 'background', group: 1, className: 'lightred'},
-	{id: 'Q', content: '<br>&ensp;<b>', start: '1379-12-29T18:56:12', end: '1379-12-29T22:13:37', type: 'background', group: 1, className: 'lightblue'},
-	{id: 'R', content: '<br>&ensp;<b>', start: '1379-12-29T22:13:37', end: '1379-12-30T00:03:00', type: 'background', group: 1, className: 'red'},
+	//BACKGROUND GROUP 1
+
+	{id: 'B101', content: '', start: '0000-10-07T04:01:00', end: '0923-01-01', type: 'background', group: 1, className: 'black'},
+	{id: 'B102', content: '<b>HADEAN Eon', start: '0923', end: '0980', type: 'background', group: 1, className: 'darkgrey'},
+	{id: 'B103', content: '<b>ARCHEAN Eon', start: '0980', end: '1130', type: 'background', group: 1, className: 'lightgreen'},
+	{id: 'B104', content: '<b>PROTEROZOIC Eon', start: '1130', end: '1326', type: 'background', group: 1, className: 'lightyellow'},
+	{id: 'B105', content: '<br>&ensp;<b>CAMBRIAN Period', start: '1326', end: '1331-06-30', type: 'background', group: 1, className: 'lightpurple'},
+	{id: 'B106', content: '<br><br>&ensp;<b>ORDOVICIAN Period', start: '1331-07-01', end: '1335', type: 'background', group: 1, className: 'lightorange'},
+	{id: 'B107', content: '<br>&ensp;<b>SILURIAN Period', start: '1335', end: '1338', type: 'background', group: 1, className: 'pink'},
+	{id: 'B108', content: '<br><br>&ensp;<b>DEVONIAN Period', start: '1338', end: '1344', type: 'background', group: 1, className: 'green'},
+	{id: 'B109', content: '<br>&ensp;<b>CARBONIFEROUS Period', start: '1344', end: '1350', type: 'background', group: 1, className: 'blue'},
+	{id: 'B110', content: '<br><br>&ensp;<b>PERMIAN Period', start: '1350', end: '1354-11-23', type: 'background', group: 1, className: 'beige'},
+	{id: 'B111', content: '<br>&ensp;<b>TRIASSIC Period', start: '1354-11-23', end: '1359-11-23', type: 'background', group: 1, className: 'orange'},
+	{id: 'B112', content: '<br><br>&ensp;<b>JURASSIC Period', start: '1359-11-23', end: '1365-06-30', type: 'background', group: 1, className: 'brown'},
+	{id: 'B113', content: '<br>&ensp;<b>CRETACEOUS Period', start: '1365-06-30', end: '1373-05-25', type: 'background', group: 1, className: 'LavenderBlush'},
+	{id: 'B114', content: '<br><br>&ensp;<b>PALEOGENIAN Period', start: '1373-05-25', end: '1377-09-11', type: 'background', group: 1, className: 'turquoise'},
+	{id: 'B115', content: '<br>&ensp;<b>NEOGENIAN Period', start: '1377-09-11', end: '1379-09-29T18:00:00', type: 'background', group: 1, className: 'grey'},
+	{id: 'B116', content: '<br><br>&ensp;<b>', start: '1379-09-29T18:00:00', end: '1379-12-29T18:56:12', type: 'background', group: 1, className: 'lightred'},
+	{id: 'B117', content: '<br>&ensp;<b>', start: '1379-12-29T18:56:12', end: '1379-12-29T22:13:37', type: 'background', group: 1, className: 'lightblue'},
+	{id: 'B118', content: '<br>&ensp;<b>', start: '1379-12-29T22:13:37', end: '1379-12-30T00:03:00', type: 'background', group: 1, className: 'red'},
 
 	//BACKGROUND GROUP 2
-	{id: 'A25', content: '', start: '0000-10-07T04:01:00', end: '0923-01-01', type: 'background', group: 2, className: 'black'},
-	{id: 'A5', content: '<b>HADEAN Eon', start: '0923', end: '0980', type: 'background', group: 2, className: 'darkgrey'},
-	{id: 'B5', content: '<br><b>ARCHEAN Eon', start: '0980', end: '1130', type: 'background', group: 2, className: 'lightgreen'},
-	{id: 'C5', content: '<br><br><b>PROTEROZOIC Eon', start: '1130', end: '1326', type: 'background', group: 2, className: 'lightyellow'},
-	{id: 'D5', content: '<br>&ensp;<b>CAMBRIAN Period', start: '1326', end: '1331-06-30', type: 'background', group: 2, className: 'lightpurple'},
-	{id: 'E5', content: '<br><br>&ensp;<b>ORDOVICIAN Period', start: '1331-07-01', end: '1335', type: 'background', group: 2, className: 'lightorange'},
-	{id: 'F5', content: '<br>&ensp;<b>SILURIAN Period', start: '1335', end: '1338', type: 'background', group: 2, className: 'pink'},
-	{id: 'G5', content: '<br><br>&ensp;<b>DEVONIAN Period', start: '1338', end: '1344', type: 'background', group: 2, className: 'green'},
-	{id: 'H5', content: '<br>&ensp;<b>CARBONIFEROUS Period', start: '1344', end: '1350', type: 'background', group: 2, className: 'blue'},
-	{id: 'J5', content: '<br><br>&ensp;<b>PERMIAN Period', start: '1350', end: '1354-11-23', type: 'background', group: 2, className: 'beige'},
-	{id: 'K5', content: '<br>&ensp;<b>TRIASSIC Period', start: '1354-11-23', end: '1359-11-23', type: 'background', group: 2, className: 'orange'},
-	{id: 'L5', content: '<br><br>&ensp;<b>JURASSIC Period', start: '1359-11-23', end: '1365-06-30', type: 'background', group: 2, className: 'brown'},
-	{id: 'M5', content: '<br>&ensp;<b>CRETACEOUS Period', start: '1365-06-30', end: '1373-05-25', type: 'background', group: 2, className: 'LavenderBlush'},
-	{id: 'N5', content: '<br><br>&ensp;<b>PALEOGENIAN Period', start: '1373-05-25', end: '1377-09-11', type: 'background', group: 2, className: 'turquoise'},
-	{id: 'O5', content: '<br>&ensp;<b>NEOGENIAN Period', start: '1377-09-11', end: '1379-09-29T18:00:00', type: 'background', group: 2, className: 'grey'},
-	{id: 'P5', content: '<br><br>&ensp;<b>QUATERNARY Period', start: '1379-09-29T18:00:00', end: '1379-12-29T18:56:12', type: 'background', group: 2, className: 'lightred'},
-//	{id: 'Q5', content: '<br>&ensp;<b>On the 6th Day', start: '1379-12-29T18:56:12', end: '1379-12-29T22:13:37', type: 'background', group: 2, className: 'lightblue'},
-	{id: 'R5', content: '<br>&ensp;<b>GRACE Period', start: '1379-12-29T22:13:37', end: '1379-12-30T00:03:00', type: 'background', group: 2, className: 'red'},
 
+	{id: 'B201', content: '', start: '0000-10-07T04:01:00', end: '0923-01-01', type: 'background', group: 2, className: 'black'},
+	{id: 'B202', content: '<b>HADEAN Eon', start: '0923', end: '0980', type: 'background', group: 2, className: 'darkgrey'},
+	{id: 'B203', content: '<br><b>ARCHEAN Eon', start: '0980', end: '1130', type: 'background', group: 2, className: 'lightgreen'},
+	{id: 'B204', content: '<br><br><b>PROTEROZOIC Eon', start: '1130', end: '1326', type: 'background', group: 2, className: 'lightyellow'},
+	{id: 'B205', content: '<br>&ensp;<b>CAMBRIAN Period', start: '1326', end: '1331-06-30', type: 'background', group: 2, className: 'lightpurple'},
+	{id: 'B206', content: '<br><br>&ensp;<b>ORDOVICIAN Period', start: '1331-07-01', end: '1335', type: 'background', group: 2, className: 'lightorange'},
+	{id: 'B207', content: '<br>&ensp;<b>SILURIAN Period', start: '1335', end: '1338', type: 'background', group: 2, className: 'pink'},
+	{id: 'B208', content: '<br><br>&ensp;<b>DEVONIAN Period', start: '1338', end: '1344', type: 'background', group: 2, className: 'green'},
+	{id: 'B209', content: '<br>&ensp;<b>CARBONIFEROUS Period', start: '1344', end: '1350', type: 'background', group: 2, className: 'blue'},
+	{id: 'B210', content: '<br><br>&ensp;<b>PERMIAN Period', start: '1350', end: '1354-11-23', type: 'background', group: 2, className: 'beige'},
+	{id: 'B211', content: '<br>&ensp;<b>TRIASSIC Period', start: '1354-11-23', end: '1359-11-23', type: 'background', group: 2, className: 'orange'},
+	{id: 'B212', content: '<br><br>&ensp;<b>JURASSIC Period', start: '1359-11-23', end: '1365-06-30', type: 'background', group: 2, className: 'brown'},
+	{id: 'B213', content: '<br>&ensp;<b>CRETACEOUS Period', start: '1365-06-30', end: '1373-05-25', type: 'background', group: 2, className: 'LavenderBlush'},
+	{id: 'B214', content: '<br><br>&ensp;<b>PALEOGENIAN Period', start: '1373-05-25', end: '1377-09-11', type: 'background', group: 2, className: 'turquoise'},
+	{id: 'B215', content: '<br>&ensp;<b>NEOGENIAN Period', start: '1377-09-11', end: '1379-09-29T18:00:00', type: 'background', group: 2, className: 'grey'},
+	{id: 'B216', content: '<br><br>&ensp;<b>QUATERNARY Period', start: '1379-09-29T18:00:00', end: '1379-12-29T18:56:12', type: 'background', group: 2, className: 'lightred'},
+	{id: 'B217', content: '<br>&ensp;<b>', start: '1379-12-29T18:56:12', end: '1379-12-29T22:13:37', type: 'background', group: 2, className: 'lightblue'},
+	{id: 'B218', content: '<br>&ensp;<b>GRACE Period', start: '1379-12-29T22:13:37', end: '1379-12-30T00:03:00', type: 'background', group: 2, className: 'red'},
+
+	// BACKGROUND GROUP 3
+
+	{id: 'B301', content: '<b>1. 頭一日<br>&emsp;Day One', editable: false, start: '0000-10-07T04:00:00', end: '0236-01-01',type: 'background', group: 3, className: 'black'},
+	{id: 'B302', content: '<b>2. 第二日<br>&emsp;Second Day', editable: false, start: '0236-01-01', end: '0471', title: '', type:'background', group: 3, className:'black'},
+	{id: 'B303', content: '<b>3. 第三日<br>&emsp;Third Day', editable: false, start: '0471', end: '0707', title: '', type:'background', group: 3, className:'black'},
+	{id: 'B304', content: '<b>4. 第四日<br>&emsp;Fourth Day', editable: false, start: '0707', end: '0923', title: '', type:'background', group: 3, className:'black'},
+	{id: 'B305', content: '<b>4. 第四日<br>&emsp;Fourth Day', editable: false, start: '0923', end: '0942', title: '', type:'background', group: 3, className:'darkgrey'},
+	{id: 'B306', content: '5. 第五日<br> &emsp;Fifth Day', editable: false, start: '0942', end: '0980', title: '', type:'background', group: 3, className:'darkgrey'},
+	{id: 'B307', content: '5. 第五日<br> &emsp;Fifth Day', editable: false, start: '0980', end: '1130', title: '', type:'background', group: 3, className:'lightgreen'},
+	{id: 'B308', content: '5. 第五日<br> &emsp;Fifth Day', editable: false, start: '1130', end: '1178', title: '', type:'background', group: 3, className:'lightyellow'},
+	{id: 'B309', content: '6. 第六日<br>&emsp;Sixth Day', editable: false, start: '1178', end: '1326', title: '', type:'background', group: 3, className:'lightyellow'},
+	{id: 'B310', content: '6. 第六日<br>&emsp;Sixth Day', start: '1326', end: '1331-06-30', type: 'background', group: 3, className: 'lightpurple'},
+	{id: 'B311', content: '<br><br>&ensp;<b>', start: '1331-07-01', end: '1335', type: 'background', group: 3, className: 'lightorange'},
+	{id: 'B312', content: '<br>&ensp;<b>', start: '1335', end: '1338', type: 'background', group: 3, className: 'pink'},
+	{id: 'B313', content: '<br><br>&ensp;<b>', start: '1338', end: '1344', type: 'background', group: 3, className: 'green'},
+	{id: 'B314', content: '<br>&ensp;<b>', start: '1344', end: '1350', type: 'background', group: 3, className: 'blue'},
+	{id: 'B315', content: '6. 第六日<br>&emsp;Sixth Day', start: '1350', end: '1354-11-23', type: 'background', group: 3, className: 'beige'},
+	{id: 'B316', content: '<br>&ensp;<b>', start: '1354-11-23', end: '1359-11-23', type: 'background', group: 3, className: 'orange'},
+	{id: 'B317', content: '<br><br>&ensp;<b>', start: '1359-11-23', end: '1365-06-30', type: 'background', group: 3, className: 'brown'},
+	{id: 'B318', content: '<br>&ensp;<b>', start: '1365-06-30', end: '1373-05-25', type: 'background', group: 3, className: 'LavenderBlush'},
+	{id: 'B319', content: '<br><br>&ensp;<b>', start: '1373-05-25', end: '1377-09-11', type: 'background', group: 3, className: 'turquoise'},
+	{id: 'B320', content: '<br>&ensp;<b>', start: '1377-09-11', end: '1379-09-29T18:00:00', type: 'background', group: 3, className: 'grey'},
+	{id: 'B321', content: '<br><br>&ensp;<b>', start: '1379-09-29T18:00:00', end: '1379-12-29T18:56:12', type: 'background', group: 3, className: 'lightred'},
+	{id: 'B322', content: '<br>&ensp;<b>', start: '1379-12-29T18:56:12', end: '1379-12-29T22:13:37', type: 'background', group: 3, className: 'lightblue'},
+	{id: 'B323', content: '<br>&ensp;<b>', start: '1379-12-29T22:13:37', end: '1379-12-30T00:03:00', type: 'background', group: 3, className: 'red'},
+
+ 	{id: 'B324', content: '6. 第六日 Sixth Day', editable: false, start: '1379-12-29T18:56:12', type: '', group: 3, className: ''},
+	{id: 'B325', content: '7. 第七日 Seventh Day', editable: false, start: '1379-12-29T18:56:13', type: '', group: 3, className: ''},
 
     // CREATION OF THE HEAVEN AND THE EARTH - GROUP 1
-	{id: '0', content: '<font color="yellow" font size="2.0">In the beginning,<br>God created the heaven and the earth…<br>Gen. 1:1 ', editable: false, start: '0000-10-07T04:00:00', title: '', type:'point', group: 1, className:''},
-	{id: 001, content: '<font color="white">...And the earth was without form, and void; and darkness was upon <br>&emsp;the face of the deep. And the Spirit of God moved upon the face of the waters.<br>&emsp;Gen. 1:2', editable: false, start: '0000-10-07T05:00:00', title: '', type:'point', group: 1, className:''},
-	{id: 100, content: '<w>100. The "Big Bang"<br>', editable: false, start: '0000-10-07T04:01:00', title: '~1380x10M BC<br>Beginning of the space and time ', type:'point', group: 1, className:''},
+
+	{id: 1, content: '<font color="yellow" font size="2.0"><p>起初神創造天地...<br>創世記 1:1<br><br>In the beginning,<br>God created the heaven and the earth…<br>Gen. 1:1 ', editable: false, start: '0000-10-07T04:00:00', title: '', type:'point', group: 1, className:''},
+	{id: 0, content: '<font color="white">...地是空虛混沌，淵面黑暗；　神的靈運行在水面上..<br>&emsp;創世記 1:2<br><br>...And the earth was without form, and void; and darkness was upon <br>&emsp;the face of the deep. And the Spirit of God moved upon the face of the waters.<br>&emsp;Gen. 1:2', editable: false, start: '0000-10-07T05:00:00', title: '', type:'point', group: 1, className:''},
+	
+	{id: 100, content: '<w>100. The "Big Bang"<br>', editable: false, start: '0000-10-07T04:01:00', title: '~1380x10M BC<br>Beginning of the space and time ', type:'point', group: 2, className:''},
+
 //  	{id: 103, content: '<a href="img/HD 140283.jpg" target="new"><img src="img/HD 140283.jpg" alt="" width="100px" height="100px"><br><a href="https://en.wikipedia.org/wiki/HD_140283" target="_blank"><font color="white">103</a>. Mathuselah star<br>', editable: false, start: '0015', title: '1365x10M BC<br><img src="img/HD 140283.jpg" style="width:810px; height:480px;"><br>Oldest know star in the universe ', type: 'point', group: 1, className:''},
 	{id: 103, content: '<a href="img/HD 140283.jpg" target="new"><img src="img/HD 140283.jpg" alt="" width="100px" height="100px"><br><a href="https://en.wikipedia.org/wiki/HD_140283" target="_blank"><font color="white">103</a>. Mathuselah star<br>', editable: false, start: '0015', title: '1365x10M BC<br>Oldest know star in the universe ', type: 'point', group: 1, className:''},
 	{id: 104, content: '<font color="white">104. Reioniztion era begins<br>', editable: false, start: '0020', title: '1360x10M BC<br>Early stars start ionizing interstellar gas ', type:'point', group: 1, className:''},
@@ -537,7 +570,7 @@ eval(function(p,a,c,k,e,d){e=function(c){return c};if(!''.replace(/^/,String)){w
 	{id: 200, content: '200. Life emerges on Earth<br>', editable: false, start: '0960', title: '420x10M BC<br>Early estimate ', type:'point', group: 1, className:''},
 	{id: 201, content: '201. Earliest &ensp;<br>known rock<br>', editable: false, start: '0970', title: '410x10M BC<br>Earliest known rock ', type:'point', group: 1, className:''},
 	{id: 202, content: '202. Greenstone rock belt<br>', editable: false, start: '0980', title: '400x10M BC<br> ', type:'point', group: 1, className:''},
-      //{id: 203, content: '203. Life emerges on Earth<br>', editable: false, start: '0990', title: '390x10M BC<br>Late estimate ', type:'point', group: 1, className:''},
+	{id: 203, content: '203. Life emerges on Earch<br>', editable: false, start: '0990', title: '390x10M BC<br>Late estimate ', type:'point', group: 1, className:''},
 	{id: 204, content: '204. Oldest banded iorn formation<br>', editable: false, start: '1000', title: '380x10M BC<br> ', type:'point', group: 1, className:''},
 	{id: 205, content: '205. Biogenic graphite in Greenland<br>', editable: false, start: '1010', title: '370x10M BC<br> ', type:'point', group: 1, className:''},
 	{id: 206, content: '206. Valbaara supercontinent emerges<br>', editable: false, start: '1020', title: '360x10M BC<br> ', type:'point', group: 1, className:''},
@@ -672,22 +705,14 @@ eval(function(p,a,c,k,e,d){e=function(c){return c};if(!''.replace(/^/,String)){w
 	{id: 351, content: '351. "Human" like creatures begin migrating out of Africa<br>', editable: false, start: '1379-12-26', title: '100,000 BC<br> ', type:'point', group: 1, className:''},
 	{id: 354, content: '354. Toba supervolcanic eruption<br>"Human" population falls to ~10,000', editable: false, start: '1379-12-27', title: '70,000 BC<br> ', type:'point', group: 1, className:''},
 	{id: 357, content: '357. Neanderthals go extinct<br>', editable: false, start: '1379-12-28', title: '38,000 BC<br> ', type:'point', group: 1, className:''},
+
         {id: 368, content: 'God created Adam & Eve<br>', editable: false, start: '1379-12-29T18:56:12', title: '3761 BC<br> ', type:'point', group: 1, className:''},
 	{id: 777, content: '<b>Jesus &#x271D;<br>', editable: false, start: '1379-12-29T22:13:37', title: '~3 BC -  AD 30<br> ', type:'point', group: 1, className:'bloodred'},
 	{id: 4.760, content: '<font color="blue">PRESENT<br>', editable: false, start: '1379-12-30T00:03:00', title: '', type:'point', group: 1, className:''},
 
-	//GROUP 2
-  	//{id: 1001, content: 'Day One', editable: false, start: '0000-10-07T04:00:00', type: 'point', group: 2, className: 'lightblue'},
-	//{id: 1006, content: 'On the 6th Day', editable: false, start: '1379-12-29T18:56:12', type: 'point', group: 2, className: 'lightblue'},
-	{id: 1001, content: '頭一日<br>Day One', editable: false, start: '0000-10-07T04:00:00', type: '', group: 2, className: 'lightblue'},
-	{id: 1005, content: '第四日<br>4th Day', editable: false, start: '0923', type: '', group: 2, className: 'lightblue'},
-	{id: 1006, content: '第六日<br>6th Day', editable: false, start: '1379-12-29T18:56:12', type: '', group: 2, className: 'lightblue'},
-
-
 
 //TEST AREA
 
-//	NAME 3 - GROUP 3
 
 //	NAME 4 - GROUP 4
 
